@@ -8,10 +8,14 @@
 ## Resources
 For this project, the following datasets have been used. Specially thanks to their contributors for spreading so rich information about this sunject:
 
-* CO2 and GHG emission data--> https://www.kaggle.com/srikantsahu/co2-and-ghg-emission-data?select=emission+data.csv
+* CO2 and GHG emission data--> https://www.kaggle.com/srikantsahu/co2-and-ghg-emission-data
 
+This dataset contains emission data of Green House Gases (in tonnes) of different countries from year 1750 - 2019.
 
 * CO2 Emission by Vehicles--> https://www.kaggle.com/debajyotipodder/co2-emission-by-vehicles
+
+This dataset captures the details of how CO2 emissions by a vehicle can vary with the different features. The dataset has been taken from Canada Government official open data website. This is a compiled version. This contains data over a period of 7 years.
+There are total 7385 rows and 12 columns. There are few abbreviations that has been used to describe the features. I am listing them out here. The same can be found in the Data Description sheet.
 
 
 ## Structure
