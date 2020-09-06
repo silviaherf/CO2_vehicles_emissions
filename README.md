@@ -8,14 +8,19 @@
 ## Resources
 For this project, the following datasets have been used. Specially thanks to their contributors for spreading so rich information about this sunject:
 
-* CO2 and GHG emission data--> https://www.kaggle.com/srikantsahu/co2-and-ghg-emission-data
+* **CO2 and GHG emission data**--> https://www.kaggle.com/srikantsahu/co2-and-ghg-emission-data
 
 This dataset contains emission data of Green House Gases (in tonnes) of different countries from year 1750 - 2019.
 
-* CO2 Emission by Vehicles--> https://www.kaggle.com/debajyotipodder/co2-emission-by-vehicles
+* **Greenhouse Gas Emissions worldwide** --> https://www.kaggle.com/srikantsahu/co2-and-ghg-emission-data
 
-This dataset captures the details of how CO2 emissions by a vehicle can vary with the different features. The dataset has been taken from Canada Government official open data website. This is a compiled version. This contains data over a period of 7 years.
-There are total 7385 rows and 12 columns. There are few abbreviations that has been used to describe the features. I am listing them out here. The same can be found in the Data Description sheet.
+The Greenhouse Gas (GHG) Inventory Data contains the most recently submitted information, covering the period from 1990 to the latest available year, to the extent the data have been provided (2012). The GHG data contain information on anthropogenic emissions by sources and removals by sinks of the following GHGs (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), unspecified mix of HFCs and PFCs, sulphur hexafluoride (SF6) and nitrogen triflouride (NF3)) that are not controlled by the Montreal Protocol.
+
+* **CO2 Emission by Vehicles**--> https://www.kaggle.com/debajyotipodder/co2-emission-by-vehicles
+
+This Dataset provide model-specific fuel consumption ratings and estimated carbon dioxide emissions for new light-duty vehicles for retail sale in Canada.
+
+To help you compare vehicles from different model years, the fuel consumption ratings for 1995 to 2014 vehicles have been adjusted to reflect the improved testing that is more representative of everyday driving. Note that these are approximate values that were generated from the original ratings, not from vehicle testing.
 
 
 ## Structure
