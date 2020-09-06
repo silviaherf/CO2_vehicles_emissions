@@ -12,9 +12,10 @@ def export_cvs(df):
 
 def open_cvs():
     """ This function opens a cvs file from src folder in my project. and saves it into a pandas DataFrame
-    No parameters are needed, except of the name the function will ask you
+    No parameters are needed, except of the name and the folder the function will ask you
     """
+    folder=input('Please, enter the folder where your cvs file is saved:\n')
     name=input('Please, enter the name for the cvs file you want to open without extension:\n')
     
 
-    return pd.read_csv(f'src/{name}.csv',encoding='latin-1')
+    return pd.read_csv(f'{folder}/{name}.csv',encoding='latin-1')
