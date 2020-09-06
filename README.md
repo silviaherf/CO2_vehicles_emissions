@@ -26,6 +26,10 @@ This Dataset provide model-specific fuel consumption ratings and estimated carbo
 
 To help you compare vehicles from different model years, the fuel consumption ratings for 1995 to 2014 vehicles have been adjusted to reflect the improved testing that is more representative of everyday driving. Note that these are approximate values that were generated from the original ratings, not from vehicle testing.
 
+* **Registered vehicles Data by country** --> https://apps.who.int/gho/data/node.main.A995 
+
+
+
 
 ## Structure
 
