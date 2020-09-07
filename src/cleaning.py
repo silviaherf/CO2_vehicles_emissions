@@ -18,3 +18,17 @@ def rounding(df):
     for column in df.select_dtypes(include=['int','float']).columns:
         df[column]=df[column].map(lambda x:round(x,2))
     return df
+
+def white_spaces(df,column):
+    """
+    This function removes every white space in the selected column in a DataFrame. It changes the type of 
+    values to integer, if it still keeps as string.
+    The two arguments needed are:
+    df:the DataFrame
+    column:the column from the dataFrame as a string
+    """
+    if type(column[0])== str:
+        df[column]=df[column].map(lambda x: "".join(x.split()))
+    if type(column[0])!= int and type(column[0])!= float:
+        df[column]=df[column].map(lambda x: int(x))
+    return df   
