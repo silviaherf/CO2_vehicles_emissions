@@ -2,7 +2,8 @@
 import pandas as pd
 
 def export_cvs(df):
-    """ This function export a cvs file to src folder in my project.
+    """ 
+    This function export a cvs file to src folder in my project.
     To use it, it needs one parameter:
     df:the DataFrame we are willing to export to cvs
     """
@@ -11,7 +12,8 @@ def export_cvs(df):
     return f"{name} has been exported to cvs file"
 
 def open_cvs():
-    """ This function opens a cvs file from src folder in my project. and saves it into a pandas DataFrame
+    """ 
+    This function opens a cvs file from src folder in my project. and saves it into a pandas DataFrame
     No parameters are needed, except of the name and the folder the function will ask you
     """
     folder=input('Please, enter the folder where your cvs file is saved:\n')
