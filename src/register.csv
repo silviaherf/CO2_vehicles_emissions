@@ -1,163 +1,120 @@
 Country,Year,Number_of_registered_vehicles
-Afghanistan, 2013,655357
-Albania, 2016,563106
-Antigua and Barbuda, 2016,36030
-Argentina, 2016,21633587
-Australia, 2016,18326236
-Austria, 2016,7421647
-Azerbaijan, 2016,1330551
-Bangladesh, 2016,2879708
-Barbados, 2015,117104
-Belarus, 2017,4192291
-Belgium, 2016,7330718
-Belize, 2007,56094
-Benin, 2016,469761
-Bhutan, 2017,86981
-Bolivia (Plurinational State of), 2016,1711005
-Bosnia and Herzegovina, 2016,978229
-Botswana, 1995-2016,653274
-Brazil, 2016,93867016
-Bulgaria, 2016,4031748
-Burkina Faso, 2015,2106292
-Burundi, 2017,111236
-Cabo Verde, 2016,64955
-Cambodia, 2016,3751715
-Cameroon, 1995-2016,758145
-Canada, 2015,23923806
-Central African Republic, 2014,37475
-Chad, 2016,1124000
-Chile, 2016,4960945
-China, 2016,294694457
-Colombia, 2017,13477996
-Comoros, 2016,34898
-Cook Islands, 2013-2014,12453
-Costa Rica, 2015,1991398
-CÃ´te d'Ivoire, 2016,905537
-Croatia, 2016,1996056
-Cuba, 2016,633369
-Cyprus, 2015,650805
-Czechia, 2015,7325789
-Denmark, 2016,3131673
-Dominica, 2016,35796
-Dominican Republic, 2016,3854038
-Ecuador, 2015,1925368
-Egypt, 2016,8412673
-El Salvador, 2016,1008080
-Equatorial Guinea,  ,143000
-Eritrea, 2016,72405
-Estonia, 2016,865040
-Eswatini, 2016,99830
-Ethiopia, 2015-2016,708416
-Fiji, 2016,110763
-Finland, 2016,5217850
-France, 2015,42363000
-Gambia, 1995-2016,84963
-Georgia, 2016,1126470
-Germany, 2016,56622000
-Ghana, 2016,2066943
-Greece, 2016,9489299
-Grenada, 2016,27266
-Guatemala, 2016,3250194
-Guinea, 2016,259731
-Guinea-Bissau, 2016,62239
-Guyana, 2013,15694
-Honduras, 2016,1694504
-Hungary, 2016,4022798
-Iceland, 2016,289501
-India, 2015,210023289
-Indonesia, 2016,128398594
-Iran (Islamic Republic of), 2016-2017,30377065
-Iraq, 2015,5775777
-Ireland, 2015,2573961
-Israel, 2016,3239305
-Italy, 2016,52581575
-Jamaica, 2016,541316
-Japan, 2016,81602046
-Jordan, 2016,1502420
-Kazakhstan, 2016,4383120
-Kenya, 2016,2979910
-Kiribati, 2016-2017,3706
-Kuwait, 2016,2001940
-Kyrgyzstan, 2015,993000
-Lao People's Democratic Republic, 2016,1850020
-Latvia, 2017,803628
-Lebanon, 2016,1866407
-Liberia, 2012,1085075
-Libya, 2013,3553497
-Lithuania, 2015,1391568
-Luxembourg, 2017,466472
-Madagascar, 2015,236979
-Malaysia, 2016,27613120
-Maldives, 2016,92983
-Mali, 2015,344345
-Malta, 2016,358947
-Mauritius, 2016,507676
-Mexico, 2015,40205671
-Micronesia (Federated States of), 2016,5673
-Mongolia, 2016,841537
-Montenegro, 2016,211219
-Morocco, 2016,3791469
-Mozambique, 2016,698864
-Myanmar, 2017,6381136
-Namibia, 2017,371281
-Nepal, 2014-2015,2339169
-Netherlands, 2015,10757655
-New Zealand, 2016,3656300
-Niger, 2016,436420
-Nigeria, 2016,11733425
-Norway, 2016,3969612
-"occupied Palestinian territory, including east Jerusalem", 2015,268365
-Oman, 2016,1370913
-Pakistan, 2016,18352500
-Panama, 2016,1288573
-Papua New Guinea, 2016,100993
-Paraguay, 2016,1871947
-Peru, 2016,5604789
-Philippines, 2016,9251565
-Poland, 2015,27409106
-Portugal, 2015,6590094
-Qatar, 2016,1330487
-Republic of Korea, 2016,25680967
-Republic of Moldova, 2016,894253
-Republic of North Macedonia, 2015,442962
-Romania, 2016,7014661
-Russian Federation, 2016,54014259
-Rwanda, 2016,180137
-Saint Lucia, 2016,35681
-Samoa, 2016,25235
-San Marino, 2016,54956
-Sao Tome and Principe, 2017,34050
-Saudi Arabia, 2016,6895799
-Senegal, 2015,468051
-Serbia, 2016,2282401
-Seychelles, 2016,23076
-Singapore, 2016,933534
-Slovakia, 2016,2606412
-Slovenia, 2016,1468439
-Somalia, 2014,59457
-South Sudan, 2012-2016,69647
-Spain, 2015,32986384
-Sri Lanka, 2016,6795469
-Sudan, 2016,1252740
-Suriname, 2015,228388
-Sweden, 2016,6102914
-Switzerland, 2016,5980512
-Syrian Arab Republic, 2016,2396544
-Tajikistan, 2016,439972
-Thailand, 2016,37338139
-Timor-Leste, 2016,146596
-Togo, 2016,64118
-Tonga, 2012,8154
-Trinidad and Tobago, 1995-2016,831803
-Tunisia, 2016,2015601
-Turkey, 2016,21090424
-Uganda, 2016,1594962
-Ukraine, 2014,14433709
-United Arab Emirates, 2016,3391125
-United Kingdom of Great Britain and Northern Ireland, 2016,38388214
-United Republic of Tanzania, 2016,2163623
-United States of America, 2015,281312446
-Uruguay, 2016,2342026
-Venezuela (Bolivarian Republic of), 2016,7999760
-Viet Nam, 2016,50666855
-Zimbabwe, 2017,1198584
+Albania,2016,563106
+Antigua and Barbuda,2016,36030
+Argentina,2016,21633587
+Australia,2016,18326236
+Austria,2016,7421647
+Azerbaijan,2016,1330551
+Bangladesh,2016,2879708
+Belarus,2017,4192291
+Belgium,2016,7330718
+Benin,2016,469761
+Bhutan,2017,86981
+Bolivia (Plurinational State of),2016,1711005
+Bosnia and Herzegovina,2016,978229
+Brazil,2016,93867016
+Bulgaria,2016,4031748
+Burundi,2017,111236
+Cabo Verde,2016,64955
+Cambodia,2016,3751715
+Chad,2016,1124000
+Chile,2016,4960945
+China,2016,294694457
+Colombia,2017,13477996
+Comoros,2016,34898
+CÃ´te d'Ivoire,2016,905537
+Croatia,2016,1996056
+Cuba,2016,633369
+Denmark,2016,3131673
+Dominica,2016,35796
+Dominican Republic,2016,3854038
+Egypt,2016,8412673
+El Salvador,2016,1008080
+Eritrea,2016,72405
+Estonia,2016,865040
+Eswatini,2016,99830
+Fiji,2016,110763
+Finland,2016,5217850
+Georgia,2016,1126470
+Germany,2016,56622000
+Ghana,2016,2066943
+Greece,2016,9489299
+Grenada,2016,27266
+Guatemala,2016,3250194
+Guinea,2016,259731
+Guinea-Bissau,2016,62239
+Honduras,2016,1694504
+Hungary,2016,4022798
+Iceland,2016,289501
+Indonesia,2016,128398594
+Iran (Islamic Republic of),2016-2017,30377065
+Israel,2016,3239305
+Italy,2016,52581575
+Jamaica,2016,541316
+Japan,2016,81602046
+Jordan,2016,1502420
+Kazakhstan,2016,4383120
+Kenya,2016,2979910
+Kiribati,2016-2017,3706
+Kuwait,2016,2001940
+Lao People's Democratic Republic,2016,1850020
+Latvia,2017,803628
+Lebanon,2016,1866407
+Luxembourg,2017,466472
+Malaysia,2016,27613120
+Maldives,2016,92983
+Malta,2016,358947
+Mauritius,2016,507676
+Micronesia (Federated States of),2016,5673
+Mongolia,2016,841537
+Montenegro,2016,211219
+Morocco,2016,3791469
+Mozambique,2016,698864
+Myanmar,2017,6381136
+Namibia,2017,371281
+New Zealand,2016,3656300
+Niger,2016,436420
+Nigeria,2016,11733425
+Norway,2016,3969612
+Oman,2016,1370913
+Pakistan,2016,18352500
+Panama,2016,1288573
+Papua New Guinea,2016,100993
+Paraguay,2016,1871947
+Peru,2016,5604789
+Philippines,2016,9251565
+Qatar,2016,1330487
+Republic of Korea,2016,25680967
+Republic of Moldova,2016,894253
+Romania,2016,7014661
+Russian Federation,2016,54014259
+Rwanda,2016,180137
+Saint Lucia,2016,35681
+Samoa,2016,25235
+San Marino,2016,54956
+Sao Tome and Principe,2017,34050
+Saudi Arabia,2016,6895799
+Serbia,2016,2282401
+Seychelles,2016,23076
+Singapore,2016,933534
+Slovakia,2016,2606412
+Slovenia,2016,1468439
+Sri Lanka,2016,6795469
+Sudan,2016,1252740
+Sweden,2016,6102914
+Switzerland,2016,5980512
+Syrian Arab Republic,2016,2396544
+Tajikistan,2016,439972
+Thailand,2016,37338139
+Timor-Leste,2016,146596
+Togo,2016,64118
+Tunisia,2016,2015601
+Turkey,2016,21090424
+Uganda,2016,1594962
+United Arab Emirates,2016,3391125
+United Kingdom of Great Britain and Northern Ireland,2016,38388214
+United Republic of Tanzania,2016,2163623
+Uruguay,2016,2342026
+Venezuela (Bolivarian Republic of),2016,7999760
+Viet Nam,2016,50666855
+Zimbabwe,2017,1198584

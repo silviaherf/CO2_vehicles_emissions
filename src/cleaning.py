@@ -21,14 +21,22 @@ def rounding(df):
 
 def white_spaces(df,column):
     """
-    This function removes every white space in the selected column in a DataFrame. It changes the type of 
-    values to integer, if it still keeps as string.
+    This function removes every white space in the selected column in a DataFrame.
     The two arguments needed are:
     df:the DataFrame
     column:the column from the dataFrame as a string
     """
-    if type(column[0])== str:
-        df[column]=df[column].map(lambda x: "".join(x.split()))
-    if type(column[0])!= int and type(column[0])!= float:
-        df[column]=df[column].map(lambda x: int(x))
+
+    df[column]=df[column].map(lambda x: "".join(x.split()))
+
+    return df   
+
+def convert_integer(df,column):
+    """
+    This function changes the type of values of a column in a DataFrame to integer.
+    The two arguments needed are:
+    df:the DataFrame
+    column:the column from the dataFrame as a string
+    """
+    df[column]=df[column].map(lambda x: int(x))
     return df   
