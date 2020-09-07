@@ -19,6 +19,14 @@ def rounding(df):
         df[column]=df[column].map(lambda x:round(x,2))
     return df
 
+def rounding_value(num):
+    """
+    This function rounds a numerical value to 2 decimals.
+    The only argument needed is num:the value we want to round
+    """
+
+    return  round(num,2)
+
 def white_spaces(df,column):
     """
     This function removes every white space in the selected column in a DataFrame.
