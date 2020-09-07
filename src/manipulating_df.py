@@ -3,7 +3,7 @@ import pandas as pd
 
 def export_cvs(df):
     """ 
-    This function export a cvs file to src folder in my project.
+    This function export a cvs file to src folder in the project.
     To use it, it needs one parameter:
     df:the DataFrame we are willing to export to cvs
     """
@@ -13,7 +13,7 @@ def export_cvs(df):
 
 def open_cvs():
     """ 
-    This function opens a cvs file from src folder in my project, in a shape of a pandas DataFrame
+    This function opens a cvs file from src folder in the project, in a shape of a pandas DataFrame
     No parameters are needed, except of the name and the folder the function will ask you
     """
     folder=input("Please, enter the folder where your cvs file is saved:\n")
@@ -24,11 +24,11 @@ def open_cvs():
 
 def open_df():
     """ 
-    This function opens a DataFrame from src folder in my project. 
+    This function opens a DataFrame from src folder in the project. 
     No parameters are needed, except of the name the function will ask you
     """
-    print("Hi! Which topic would you like to know about?\nWorldwide CO2 emissions in History, Different vehicle types CO2 emissions or Registered vehicles worldwide along time?")
-    print(" Set 'world_emission' for the first one, 'vehicles' for the second one or 'register' for the last one")
+    print("Hi! Which topic would you like to know about?\n-Worldwide CO2 emissions in History, \n-Different vehicle types CO2 emissions \n-Or Registered vehicles worldwide along time?")
+    print("Set 'world_emissions' for the first one, 'vehicles' for the second one or 'register' for the last one")
     name=input('Please, enter the name for the DataFrame you want to open without extension:\n')
     
 
