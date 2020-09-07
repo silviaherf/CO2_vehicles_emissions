@@ -29,10 +29,12 @@ def groupping():
     """
     df=open_df(name)
     g=input('Please, enter the column of the DataFrame you want to group_by the information\n')
-    a=input('And now enter the column you want to aggregate the sum and mean of the values\n')
-    df_group=df.groupby([g]).agg({a:["sum","mean"]})
-    df_group=df.apply(lambda x:round(x,2),axis=1)
+    a=input('And now enter the column you want to aggregate the sum and mean of the values\nRemember to choose a numeric column!!!')
+
+    df_group=df.groupby(str(g)).agg({str(a):["sum","mean"]})
     return df_group
+
+
 
 def graphicate():
     """
@@ -41,7 +43,7 @@ def graphicate():
     """
     df=open_df(name)
     x=input('Please, enter the column of the DataFrame you want in the x axis of your graph\n')
-    y=input('Please, enter the column of the DataFrame you want in the y axis of your graph\n')
+    y=input('Please, enter the column of the DataFrame you want in the y axis of your graph\nRemember to chose a numeric column!!')
     plt.figure(figsize=(15,8))
     df.plot.bar(x=x,y=y)
     return plt.show()
