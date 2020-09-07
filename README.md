@@ -28,6 +28,7 @@ To help you compare vehicles from different model years, the fuel consumption ra
 
 * **Registered vehicles Data by country** --> https://apps.who.int/gho/data/node.main.A995 
 
+This file from the Global Health Observatory data repository contains the total number of registered vehicles in the world (i.e. vehicles reported to a government agency and given some form of registration in each country).
 
 
 
