@@ -1,13 +1,51 @@
-def open_df():
+import pandas as pd
+import matplotlib.pyplot as plt
+
+print("Hi! Which topic would you like to know about?\n-Worldwide CO2 emissions in History, \n-Different vehicle types CO2 emissions \n-Or Registered vehicles worldwide along time?")
+print("Set 'world_emissions' for the first one, 'vehicles' for the second one or 'register' for the last one")
+    
+name=input('Please,enter the name for the DataFrame you want to open from the list above\n')
+
+def open_df(df=name):
     """
     This function opens a DataFrame from src folder in the project.
-    No parameters are needed, except of the name the function will ask you
-    Don't forget to add .head() please!
+    You must enter the name for the DataFrame you want to open from the list above
     """
-    print("Hi! Which topic would you like to know about?\n-Worldwide CO2 emissions in History, \n-Different vehicle types CO2 emissions \n-Or Registered vehicles worldwide along time?")
-    print("Set 'world_emissions' for the first one, 'vehicles' for the second one or 'register' for the last one")
-    
-    name=input('Please, enter the name for the DataFrame you want to open from the list above:\n')
-    
 
-    return pd.read_csv(f'src/{name}.csv',encoding='latin-1')
+    df=pd.read_csv(f'src/{name}.csv',encoding='latin-1')
+    
+    print(f"Here's a piece of your DataFrame:\n{df.head()}")
+    
+    return df
+
+
+def groupping():
+    """
+    This function selects the information of a DataFrame a returns a graph.
+    The parameters you need are:
+    df- the DataFrame's name (the same as the one you selected in the open_df function)
+    column- the column of the DataFrame you want to group_by the information
+    a- the column you want to aggregate the sum and mean of the values
+    """
+    df=open_df(name)
+    g=input('Please, enter the column of the DataFrame you want to group_by the information\n')
+    a=input('And now enter the column you want to aggregate the sum and mean of the values\n')
+    df_group=df.groupby([g]).agg({a:["sum","mean"]})
+    df_group=df.apply(lambda x:round(x,2),axis=1)
+    return df_group
+
+def graphicate():
+    """
+    This function selects the information of a DataFrame a returns a graph.
+    You don't need any parameter, except of the ones the function will ask you
+    """
+    df=open_df(name)
+    x=input('Please, enter the column of the DataFrame you want in the x axis of your graph\n')
+    y=input('Please, enter the column of the DataFrame you want in the y axis of your graph\n')
+    plt.figure(figsize=(15,8))
+    df.plot.bar(x=x,y=y)
+    return plt.show()
+
+
+
+
