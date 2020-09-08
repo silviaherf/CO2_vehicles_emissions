@@ -4,9 +4,9 @@
 
 ## Resume
 
-This is the project of a junior Data Analist in her earlies days at work. She has recently joined a electric engines provider (TIER1) for vehicles, and one of the company's best clients is going to meet her next week to determine if the product is worthy or not.
+This is the project of a junior Data Analist in her earlies days at work. She has recently joined a electric components provider (TIER1) for electric vehicles, and one of the company's best clients is going to meet her next week to determine if the product is worthy or not.
 
-The project consists of the manipulation, cleaning and analyzing of different datasets on CO2 emissions with Python, and the Storytelling of the data in order to convince that important client that it deserves to invest in the company and adquire electric components for vehicles.
+The project consists of the manipulation, cleaning and analyzing of different datasets on CO2 emissions with Python, and the Storytelling of the data in order to convince that important client that it deserves to invest in the company and adquire electric components so as to transform vehicles.
 
 
 ## Resources
