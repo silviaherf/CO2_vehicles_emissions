@@ -9,7 +9,7 @@ name=input('Please,enter the name for the DataFrame you want to open from the li
 def open_df(df=name):
     """
     This function opens a DataFrame from src folder in the project.
-    You must enter the name for the DataFrame you want to open from the list above
+    You must enter the name for the DataFrame you want to open from the list below
     """
 
     df=pd.read_csv(f'src/{name}.csv',encoding='latin-1')
